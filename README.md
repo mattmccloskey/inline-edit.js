@@ -13,6 +13,9 @@ How to Use
 ----------
 ```javascript
 new InlineEdit(element, [object options]);
+
+// OR
+$(element).enterEdit();
  ```
 
 #### Events
