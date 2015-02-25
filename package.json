@@ -1,0 +1,21 @@
+{
+  "name": "InlineEdit",
+  "version": "1.0.0",
+  "description": "Edit any element inline",
+  "main": "InlineEdit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt McCloskey",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jscs": "^1.4.0",
+    "gulp-jshint": "^1.9.2",
+    "gulp-minify-css": "^0.4.6",
+    "gulp-plumber": "^0.6.6",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^1.3.3",
+    "gulp-uglify": "^1.1.0"
+  }
+}

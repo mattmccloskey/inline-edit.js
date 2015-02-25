@@ -1,0 +1,35 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>InlineEdit</title>
+		<script type="text/javascript" src="../bower_components/mootools/dist/mootools-core.js"></script>
+		<script type="text/javascript" src="../bower_components/mootools-more/Source/Element/Element.Measure.js"></script>
+		<script type="text/javascript" src="../bower_components/mootools-more/Source/Element/Element.Position.js"></script>
+		<script type="text/javascript" src="../src/js/InlineEdit.js"></script>
+		<link rel="stylesheet" href="../dist/css/inline-edit.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="styles.css" type="text/css" media="screen" />
+		<script type="text/javascript">
+			window.addEvent('domready', function(){
+			
+				$$('.edit').each(function(el){
+					new InlineEdit(el).addEvent('onChange', function(new_val, old_val){
+						// I've been changed!
+					}); 
+				});
+				
+				/* OR: */
+				// $('email').enterEdit(); 
+			
+			});
+		</script>
+	</head>
+	<body>
+		
+		<h1 class="edit">Hey, I'm an H1 tag. Click to edit me.</h1>
+		
+		<span id="email" class="edit">matt@kemso.com</span>
+		
+		<p class="edit">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		
+	</body>
+</html>
