@@ -9,7 +9,7 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/mattmccloskey/inline-edit.js.git"
-  }
+  },
   "description": "Edit any element inline",
   "license": "MIT",
   "ignore": [
