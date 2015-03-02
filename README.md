@@ -1,7 +1,7 @@
 # inline-edit
 Edit any element inline
 
-Example: http://mattmccloskey.github.io/inline-edit/example/
+Example: http://mattmccloskey.github.io/inline-edit.js/example/
 
 #### Package Managers
 ````
